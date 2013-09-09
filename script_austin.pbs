@@ -1,0 +1,48 @@
+#!/bin/bash
+
+# creating the dummy list
+declare -a file_list
+touch cond_01.sas cond_02.sas cond_03.sas cond_04.sas cond_05.sas cond_06.sas cond_07.sas cond_08.sas cond_09.sas 
+file_list=( cond_01.sas cond_02.sas cond_03.sas cond_04.sas cond_05.sas cond_06.sas cond_07.sas cond_08.sas cond_09.sas )
+
+# creating dummy macro list temp file
+touch macro_update.txt
+cat  macro_calls.txt> macro_update.txt
+
+for x in "${file_list[@]}"
+do
+
+
+cat simulation_first_half.sas macro_update.txt | head -10 tail_simulation.sas >> $x
+tail -n +10 macro_update.txt  >  macro_update.txt.new && mv  macro_update.txt.new macro_update.txt
+
+done
+
+
+for x in "${file_list[@]}"
+do
+
+cat >$x".pbs" << END
+
+    #PBS -l nodes=1:ppn=1
+    #PBS -l walltime=00:10:00
+    #PBS -l pmem=1gb
+    #
+    cd \$PBS_O_WORKDIR
+    #
+    echo "    "
+    echo "    "
+    echo "Job started on \`hostname\` at \`date\`"  
+    sas < $x > $x.out
+    echo "    "
+    echo "Job Ended at \`date\`" 
+    echo
+
+END
+qsub $x".pbs"
+
+done
+
+# removing the dumy files 
+rm cond_01.sas cond_02.sas cond_03.sas cond_04.sas cond_05.sas cond_06.sas cond_07.sas cond_08.sas cond_09.sas 
+

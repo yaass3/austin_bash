@@ -1,0 +1,90 @@
+cases (condition=1, Ni=5, Nj=10, cutoff=-1.281551, theta=90, dist_aucor=1, repl=3000);
+cases (condition=2, Ni=10, Nj=10, cutoff=-1.281551, theta=90, dist_aucor=1, repl=3000);
+cases (condition=3, Ni=20, Nj=10, cutoff=-1.281551, theta=90, dist_aucor=1, repl=3000);
+cases (condition=4, Ni=5, Nj=30, cutoff=-1.281551, theta=90, dist_aucor=1, repl=3000);
+cases (condition=5, Ni=10, Nj=30, cutoff=-1.281551, theta=90, dist_aucor=1, repl=3000);
+cases (condition=6, Ni=20, Nj=30, cutoff=-1.281551, theta=90, dist_aucor=1, repl=3000);
+cases (condition=7, Ni=5, Nj=50, cutoff=-1.281551, theta=90, dist_aucor=1, repl=3000);
+cases (condition=8, Ni=10, Nj=50, cutoff=-1.281551, theta=90, dist_aucor=1, repl=3000);
+cases (condition=9, Ni=20, Nj=50, cutoff=-1.281551, theta=90, dist_aucor=1, repl=3000);
+
+cases (condition=10, Ni=5, Nj=10, cutoff=-0.67449, theta=75, dist_aucor=1, repl=3000);
+cases (condition=11, Ni=10, Nj=10, cutoff=-0.67449, theta=75, dist_aucor=1, repl=3000);
+cases (condition=12, Ni=20, Nj=10, cutoff=-0.67449, theta=75, dist_aucor=1, repl=3000);
+cases (condition=13, Ni=5, Nj=30, cutoff=-0.67449, theta=75, dist_aucor=1, repl=3000);
+cases (condition=14, Ni=10, Nj=30, cutoff=-0.67449, theta=75, dist_aucor=1, repl=3000);
+cases (condition=15, Ni=20, Nj=30, cutoff=-0.67449, theta=75, dist_aucor=1, repl=3000);
+cases (condition=16, Ni=5, Nj=50, cutoff=-0.67449, theta=75, dist_aucor=1, repl=3000);
+cases (condition=17, Ni=10, Nj=50, cutoff=-0.67449, theta=75, dist_aucor=1, repl=3000);
+cases (condition=18, Ni=20, Nj=50, cutoff=-0.67449, theta=75, dist_aucor=1, repl=3000);
+
+cases (condition=19, Ni=5, Nj=10, cutoff=-0.253345, theta=60, dist_aucor=1, repl=3000);
+cases (condition=20, Ni=10, Nj=10, cutoff=-0.253345, theta=60, dist_aucor=1, repl=3000);
+cases (condition=21, Ni=20, Nj=10, cutoff=-0.253345, theta=60, dist_aucor=1, repl=3000);
+cases (condition=22, Ni=5, Nj=30, cutoff=-0.253345, theta=60, dist_aucor=1, repl=3000);
+cases (condition=23, Ni=10, Nj=30, cutoff=-0.253345, theta=60, dist_aucor=1, repl=3000);
+cases (condition=24, Ni=20, Nj=30, cutoff=-0.253345, theta=60, dist_aucor=1, repl=3000);
+cases (condition=25, Ni=5, Nj=50, cutoff=-0.253345, theta=60, dist_aucor=1, repl=3000);
+cases (condition=26, Ni=10, Nj=50, cutoff=-0.253345, theta=60, dist_aucor=1, repl=3000);
+cases (condition=27, Ni=20, Nj=50, cutoff=-0.253345, theta=60, dist_aucor=1, repl=3000);
+
+cases (condition=28, Ni=5, Nj=10, cutoff=0.551032, theta=90, dist_aucor=2, repl=3000);
+cases (condition=29, Ni=10, Nj=10, cutoff=0.551032, theta=90, dist_aucor=2, repl=3000);
+cases (condition=30, Ni=20, Nj=10, cutoff=0.551032, theta=90, dist_aucor=2, repl=3000);
+cases (condition=31, Ni=5, Nj=30, cutoff=0.551032, theta=90, dist_aucor=2, repl=3000);
+cases (condition=32, Ni=10, Nj=30, cutoff=0.551032, theta=90, dist_aucor=2, repl=3000);
+cases (condition=33, Ni=20, Nj=30, cutoff=0.551032, theta=90, dist_aucor=2, repl=3000);
+cases (condition=34, Ni=5, Nj=50, cutoff=0.551032, theta=90, dist_aucor=2, repl=3000);
+cases (condition=35, Ni=10, Nj=50, cutoff=0.551032, theta=90, dist_aucor=2, repl=3000);
+cases (condition=36, Ni=20, Nj=50, cutoff=0.551032, theta=90, dist_aucor=2, repl=3000);
+
+cases (condition=37, Ni=5, Nj=10, cutoff=0.863649, theta=75, dist_aucor=2, repl=3000);
+cases (condition=38, Ni=10, Nj=10, cutoff=0.863649, theta=75, dist_aucor=2, repl=3000);
+cases (condition=39, Ni=20, Nj=10, cutoff=0.863649, theta=75, dist_aucor=2, repl=3000);
+cases (condition=40, Ni=5, Nj=30, cutoff=0.863649, theta=75, dist_aucor=2, repl=3000);
+cases (condition=41, Ni=10, Nj=30, cutoff=0.863649, theta=75, dist_aucor=2, repl=3000);
+cases (condition=42, Ni=20, Nj=30, cutoff=0.863649, theta=75, dist_aucor=2, repl=3000);
+cases (condition=43, Ni=5, Nj=50, cutoff=0.863649, theta=75, dist_aucor=2, repl=3000);
+cases (condition=44, Ni=10, Nj=50, cutoff=0.863649, theta=75, dist_aucor=2, repl=3000);
+cases (condition=45, Ni=20, Nj=50, cutoff=0.863649, theta=75, dist_aucor=2, repl=3000);
+
+cases (condition=46, Ni=5, Nj=10, cutoff=1.142538, theta=60, dist_aucor=2, repl=3000);
+cases (condition=47, Ni=10, Nj=10, cutoff=1.142538, theta=60, dist_aucor=2, repl=3000);
+cases (condition=48, Ni=20, Nj=10, cutoff=1.142538, theta=60, dist_aucor=2, repl=3000);
+cases (condition=49, Ni=5, Nj=30, cutoff=1.142538, theta=60, dist_aucor=2, repl=3000);
+cases (condition=50, Ni=10, Nj=30, cutoff=1.142538, theta=60, dist_aucor=2, repl=3000);
+cases (condition=51, Ni=20, Nj=30, cutoff=1.142538, theta=60, dist_aucor=2, repl=3000);
+cases (condition=52, Ni=5, Nj=50, cutoff=1.142538, theta=60, dist_aucor=2, repl=3000);
+cases (condition=53, Ni=10, Nj=50, cutoff=1.142538, theta=60, dist_aucor=2, repl=3000);
+cases (condition=54, Ni=20, Nj=50, cutoff=1.142538, theta=60, dist_aucor=2, repl=3000);
+
+cases (condition=55, Ni=5, Nj=10, cutoff=2.661161, theta=90, dist_aucor=3, repl=3000);
+cases (condition=56, Ni=10, Nj=10, cutoff=2.661161, theta=90, dist_aucor=3, repl=3000);
+cases (condition=57, Ni=20, Nj=10, cutoff=2.661161, theta=90, dist_aucor=3, repl=3000);
+cases (condition=58, Ni=5, Nj=30, cutoff=2.661161, theta=90, dist_aucor=3, repl=3000);
+cases (condition=59, Ni=10, Nj=30, cutoff=2.661161, theta=90, dist_aucor=3, repl=3000);
+cases (condition=60, Ni=20, Nj=30, cutoff=2.661161, theta=90, dist_aucor=3, repl=3000);
+cases (condition=61, Ni=5, Nj=50, cutoff=2.661161, theta=90, dist_aucor=3, repl=3000);
+cases (condition=62, Ni=10, Nj=50, cutoff=2.661161, theta=90, dist_aucor=3, repl=3000);
+cases (condition=63, Ni=20, Nj=50, cutoff=2.661161, theta=90, dist_aucor=3, repl=3000);
+
+cases (condition=64, Ni=5, Nj=10, cutoff=1.960202, theta=75, dist_aucor=3, repl=3000);
+cases (condition=65, Ni=10, Nj=10, cutoff=1.960202, theta=75, dist_aucor=3, repl=3000);
+cases (condition=66, Ni=20, Nj=10, cutoff=1.960202, theta=75, dist_aucor=3, repl=3000);
+cases (condition=67, Ni=5, Nj=30, cutoff=1.960202, theta=75, dist_aucor=3, repl=3000);
+cases (condition=68, Ni=10, Nj=30, cutoff=1.960202, theta=75, dist_aucor=3, repl=3000);
+cases (condition=69, Ni=20, Nj=30, cutoff=1.960202, theta=75, dist_aucor=3, repl=3000);
+cases (condition=70, Ni=5, Nj=50, cutoff=1.960202, theta=75, dist_aucor=3, repl=3000);
+cases (condition=71, Ni=10, Nj=50, cutoff=1.960202, theta=75, dist_aucor=3, repl=3000);
+cases (condition=72, Ni=20, Nj=50, cutoff=1.960202, theta=75, dist_aucor=3, repl=3000);
+
+cases (condition=73, Ni=5, Nj=10, cutoff=1.552690, theta=60, dist_aucor=3, repl=3000);
+cases (condition=74, Ni=10, Nj=10, cutoff=1.552690, theta=60, dist_aucor=3, repl=3000);
+cases (condition=75, Ni=20, Nj=10, cutoff=1.552690, theta=60, dist_aucor=3, repl=3000);
+cases (condition=76, Ni=5, Nj=30, cutoff=1.552690, theta=60, dist_aucor=3, repl=3000);
+cases (condition=77, Ni=10, Nj=30, cutoff=1.552690, theta=60, dist_aucor=3, repl=3000);
+cases (condition=78, Ni=20, Nj=30, cutoff=1.552690, theta=60, dist_aucor=3, repl=3000);
+cases (condition=79, Ni=5, Nj=50, cutoff=1.552690, theta=60, dist_aucor=3, repl=3000);
+cases (condition=80, Ni=10, Nj=50, cutoff=1.552690, theta=60, dist_aucor=3, repl=3000);
+cases (condition=81, Ni=20, Nj=50, cutoff=1.552690, theta=60, dist_aucor=3, repl=3000);
+
